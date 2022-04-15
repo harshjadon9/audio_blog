@@ -2,7 +2,7 @@ import React from "react";
 import Btn1 from "./buttons";
 const Navbar = () => {
     return (
-        <nav className=" sticky top-0 z-50 flex backdrop-blur-md text-left text-white px-20 py-4 font-medium text-sm place-items-center">
+        <nav className=" sticky border-slate-300 border-1 top-0 z-50 flex backdrop-blur-md text-left text-white px-10 py-4 font-medium text-sm place-items-center">
             <h1 className="text-lg font-bold text-left">Company name</h1>
             <span className="grow"></span>
             <ul className=" text-slate-100 flex place-items-center space-x-8">
