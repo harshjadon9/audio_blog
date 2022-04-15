@@ -10,7 +10,7 @@ const Navbar = () => {
                 <li><a className="">Examples</a></li>
                 <li><a className="">Pricing</a></li>
                 <div className="!mx-7 border-white border-r-[1px] opacity-20 h-[20px] w-1"></div>
-                <li className="!m-0"><Btn1 name={"Get Started"} classes={" h-9 py-0"} /></li>
+                <li className="!m-0"><Btn1 name={"Get Started"} classes={" h-10 py-0"} /></li>
             </ul>
         </nav>
     )

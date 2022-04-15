@@ -5,7 +5,7 @@ import Btn1 from "./buttons";
 const Footer = () => {
     return (
         // dark:bg-[#090d16]
-        <footer class="bg-[#070f24]  pt-4 pb-8 xl:pt-8 shadow-xl relative -mt-7 rounded-t-3xl">
+        <footer class="bg-[#070f24] mt-44 pt-4 pb-8 xl:pt-8 shadow-xl relative rounded-t-3xl">
             <div className="relative w-full">
                 <div className="h-fit lg:h-36 m-auto rounded-2xl px-10 lg:flex grid place-items-center -mt-16 w-10/12 self-center bg-[#4337c9]">
                     <div className="grow">
