@@ -3,14 +3,15 @@ import './App.css';
 import Screen from './crc/screens/Screen';
 import Btn1 from './crc/components/buttons'
 import Footer from './crc/components/footer';
+import Topnav from './crc/components/navoffer';
+import Navbar from './crc/components/navbar';
 
 function App() {
   return (
     <div className="App">
+      <Topnav classes={"mb-4"}/>
+      <Navbar />
       <div className='relative pb-60'>
-        <div className='grid place-items-center h-10 w-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500'>
-          <a className='font-bold text-white text-sm hover:cursor-pointer hover:opacity-75 transition duration-100 ease-in-out align-middle'>Visit our main website ✨</a>
-        </div>
         <div className='max-w-screen-xl px-4 py-16 mx-auto sm:py-24 lg:py-32 grid place-items-center'>
           <div className='pb-0'>
             <h3 className='order-first text-xs lg:text-lg text-transparent font-sans font-medium tracking-wide bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text'>Say Hello to the Future!! </h3>

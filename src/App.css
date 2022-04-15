@@ -2,6 +2,19 @@
   text-align: center;
 }
 
+a{
+  cursor: pointer;
+}
+a:hover{
+  opacity: 0.7;
+  /* color: transparent;
+  --webkit-background-clip: text;
+  --tw-gradient-to: #eab308;
+  --tw-gradient-stops: var(--tw-gradient-from), #ef4444, var(--tw-gradient-to, rgb(239 68 68 / 0));
+  --tw-gradient-from: #ec4899;
+  background-image: linear-gradient(to right, var(--tw-gradient-stops)); */
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
