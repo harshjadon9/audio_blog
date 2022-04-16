@@ -7,7 +7,7 @@ import './css.css';
 const Footer = () => {
     return (
         // dark:bg-[#090d16]
-        <footer class="bg-[#070f24] mt-44 pt-4 pb-8 xl:pt-8 shadow-xl relative rounded-t-3xl">
+        <footer class="bg-[#0c121f] mt-44 pt-4 pb-8 xl:pt-8 shadow-xl relative rounded-t-3xl">
             <div className="relative w-full">
                 <div className="h-fit lg:h-36 m-auto rounded-2xl px-10 lg:flex grid place-items-center -mt-16 w-10/12 self-center bg-[#4337c9]">
                     <div className="grow">
@@ -29,31 +29,13 @@ const Footer = () => {
 
                 <div className="w-full justify-items-stretch grid lg:flex">
                     <div className="m-auto lg:m-0 w-60 lg:w-64">
-                        <h1 className="text-2xl font-extrabold mb-2">Company name. </h1>
-                        <h3 className="">If you need to use a one-off width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.</h3>
+                        <h1 className="text-2xl font-extrabold mb-5">Company name. </h1>
+                        <h3 className="text-[#9397a1]">If you need to use a one-off width value that doesn’t make sense to include in your theme, use square brackets to generate a property on the fly using any arbitrary value.</h3>
                     </div>
                     <span className="w-60"></span>
                     <div className="grid lg:flex grow">
                         <div className="grow">
-                            <h2 className="text-xl font-extrabold mb-2 lg:mt-0 mt-10">Products</h2>
-                            <ul className="grid gap-y-0.5 lg:gap-y-2 mt-2 lg:mt:5">
-                                <li><a href="#" className="hover:opacity-70 cursor-pointer">Features</a></li>
-                                <li><a href="#" className="hover:opacity-70 cursor-pointer">Integration</a></li>
-                                <li><a href="#" className="hover:opacity-70 cursor-pointer">Documentation</a></li>
-                                <li><a href="#" className="hover:opacity-70 cursor-pointer">Pricing</a></li>
-                            </ul>
-                        </div>
-                        <div className="grow">
-                            <h2 className="text-xl font-extrabold mb-2 lg:mt-0 mt-10">About</h2>
-                            <ul className="grid gap-y-0.5 lg:gap-y-2 mt-2 lg:mt:5">
-                                <li><a href="#" className="hover:opacity-70 cursor-pointer">Our Story</a></li>
-                                <li><a href="#" className="hover:opacity-70 cursor-pointer">Company</a></li>
-                                <li><a href="#" className="hover:opacity-70 cursor-pointer">Our Team</a></li>
-                                <li><a href="#" className="hover:opacity-70 cursor-pointer">Work with us</a></li>
-                            </ul>
-                        </div>
-                        <div className="grow">
-                            <h2 className="text-xl font-extrabold mb-2 lg:mt-0 mt-10">Resources</h2>
+                            <h2 className="text-xl font-extrabold mb-5 lg:mt-0 mt-10">Resources</h2>
                             <ul className="grid gap-y-0.5 lg:gap-y-2 mt-2 lg:mt:5">
                                 <li><a href="#" className="hover:opacity-70 cursor-pointer">Help Center</a></li>
                                 <li><a href="#" className="hover:opacity-70 cursor-pointer">Developers API</a></li>
@@ -63,7 +45,25 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className="grow">
-                            <h2 className="text-xl font-extrabold mb-2 lg:mt-0 mt-10">Contact</h2>
+                            <h2 className="text-xl font-extrabold mb-5 lg:mt-0 mt-10">Products</h2>
+                            <ul className="grid gap-y-0.5 lg:gap-y-2 mt-2 lg:mt:5">
+                                <li><a href="#" className="hover:opacity-70 cursor-pointer">Features</a></li>
+                                <li><a href="#" className="hover:opacity-70 cursor-pointer">Integration</a></li>
+                                <li><a href="#" className="hover:opacity-70 cursor-pointer">Documentation</a></li>
+                                <li><a href="#" className="hover:opacity-70 cursor-pointer">Pricing</a></li>
+                            </ul>
+                        </div>
+                        <div className="grow">
+                            <h2 className="text-xl font-extrabold mb-5 lg:mt-0 mt-10">About</h2>
+                            <ul className="grid gap-y-0.5 lg:gap-y-2 mt-2 lg:mt:5">
+                                <li><a href="#" className="hover:opacity-70 cursor-pointer">Our Story</a></li>
+                                <li><a href="#" className="hover:opacity-70 cursor-pointer">Company</a></li>
+                                <li><a href="#" className="hover:opacity-70 cursor-pointer">Our Team</a></li>
+                                <li><a href="#" className="hover:opacity-70 cursor-pointer">Work with us</a></li>
+                            </ul>
+                        </div>
+                        <div className="grow">
+                            <h2 className="text-xl font-extrabold mb-5 lg:mt-0 mt-10">Contact</h2>
                             <ul className="grid gap-y-0.5 lg:gap-y-2 mt-2 lg:mt:5">
                                 <li className="m-auto lg:m-0">
                                     <a href="#" className="hover:opacity-70 cursor-pointer flex">
