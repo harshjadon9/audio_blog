@@ -5,6 +5,8 @@ import Btn1 from './crc/components/buttons'
 import Footer from './crc/components/footer';
 import Topnav from './crc/components/navoffer';
 import Navbar from './crc/components/navbar';
+import Price from './crc/components/pricing';
+
 
 function App() {
   return (
@@ -51,6 +53,7 @@ function App() {
           </li> */}
         </ul>
       </div>
+      <Price />
       <Footer />
     </div>
   );
