@@ -9,13 +9,14 @@ import Navbar from './crc/components/navbar';
 function App() {
   return (
     <div className="App text-white">
-      <Topnav classes={"mb-4"} />
+      <Topnav classes={"lg:mb-4"} />
       <Navbar />
 
       {/* landing area */}
       <div className='relative pb-32'>
         <div className='max-w-screen-xl px-4 py-16 mx-auto sm:py-24 lg:py-28 grid place-items-center'>
           <div className='pb-0'>
+            <div></div>
             <h3 className='order-first text-xs lg:text-lg text-transparent font-sans font-medium tracking-wide bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text'>Say Hello to the Future!! </h3>
             <h1 style={{ lineHeight: 'initial' }} className='font-sans h-full font-extrabold text-transparent text-5xl lg:text-7xl text-center bg-gradient-to-r  from-pink-500 via-red-500 to-yellow-500 bg-clip-text'>Conversation Intelligence</h1>
             <h1 style={{ lineHeight: 'initial' }} className='font-sans h-full font-extrabold text-white text-2xl lg:text-7xl text-center '>for Developers</h1>
