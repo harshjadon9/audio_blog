@@ -1,6 +1,8 @@
 import React from "react";
 import Input from './Input';
 import Btn1 from "./buttons";
+import './css.css';
+
 
 const Footer = () => {
     return (
