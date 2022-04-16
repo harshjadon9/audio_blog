@@ -1,4 +1,5 @@
 import React from "react";
+import Btn1 from "./buttons";
 
 const Tick = () => {
     return (
@@ -17,24 +18,57 @@ const Features = ({ name }) => {
     )
 }
 
+
+
 const Price = () => {
     return (
-        <section className=" bg-slate-50 h-full text-black py-10">
-            <h1 className="font-bold">Simple <span className="mx-1 font-extrabold underline decoration-8 decoration-[#c9c9c9]">Pricing</span> Plans</h1>
-            <div className="flex">
-                <div className="w-80 bg-white shadow-md rounded-md px-10 py-10 my-10 mx-5">
-                    <h2 className="font-extrabold text-4xl pb-5">Starter</h2>
-                    <h3 className="font-extrabold text-2xl pb-3">$15<span className="text-[11px] align-middle mx-1">/ mo</span></h3>
+        <section className=" bg-slate-50 h-full text-gray-700 py-10">
+            <h1 className="font-bold text-3xl lg:text-4xl my-10">Simple <span className="mx-1 font-extrabold underline decoration-8 decoration-[#6a21a7]">Pricing</span> Plans</h1>
+            <div className="lg:flex place-items-center justify-center mt-10">
+                <div className=" mx-auto w-80 bg-white shadow-lg rounded-lg px-10 py-10 my-10 lg:mx-5">
+                    <img className="mx-auto w-28 mb-10" src="https://mangools.com/assets/subscription-basic-2149dcc5352d9e02f7c8a95cafa85be79bc0850ba5f5ef3df2b6cc6d52063e59.svg" />
+                    <h2 className="font-extrabold text-5xl pb-5">Starter</h2>
+                    <h3 className="font-extrabold text-2xl pb-3">Free</h3>
                     <p className="opacity-40 text-[10px]">This plan is ideal for new writer and small companies or organizations</p>
-                    <ul className="w-full pt-10 grid gap-3">
-                        <Features name={"1 Domain"}/>
-                        <Features name={"1 Admin"}/>
-                        <Features name={"100 Articles"}/>
-                        <Features name={"10 Voices"}/>
-                        <Features name={"1500 words"}/>
+                    <ul className="w-full py-10 grid gap-3">
+                        <Features name={"1 Domain"} />
+                        <Features name={"1 Admin"} />
+                        <Features name={"100 Articles"} />
+                        <Features name={"10 Voices"} />
+                        <Features name={"1100 words/pg"} />
                     </ul>
+                    <Btn1 name="Get Started" classes={" bg-[#0b121f] !text-white !w-full hover:!bg-[#0d1a2d]"} />
+                </div>
+                <div className="mx-auto scale-105 text-white w-80 shadow-lg rounded-lg px-10 py-10 my-10 lg:mx-5 bg-gradient-to-tr from-purple-800 via-violet-900 to-purple-800">
+                    <img className="mx-auto w-28 mb-10" src="https://mangools.com/assets/subscription-premium-8dc0c20749b74979528bc769d049b5cdc9080e99b84b7b2beef7e2cb5b6cf489.svg" />
+                    <h2 className="font-extrabold text-5xl pb-5">Premium</h2>
+                    <h3 className="font-extrabold text-2xl pb-3">$55<span className="text-[11px] align-middle mx-1">/ mo</span></h3>
+                    <p className="opacity-60 text-[10px]">This plan is ideal for new writer and small companies or organizations</p>
+                    <ul className="w-full py-10 grid gap-3">
+                        <Features name={"5 Domain"} />
+                        <Features name={"5 Admin"} />
+                        <Features name={"500 Articles"} />
+                        <Features name={"50 Voices"} />
+                        <Features name={"500 words/pg"} />
+                    </ul>
+                    <Btn1 name="Get Started" classes={" bg-white !text-[#0b121f] !w-full hover:!bg-gray-200"} />
+                </div>
+                <div className="mx-auto w-80 bg-white shadow-lg rounded-lg px-10 py-10 my-10 lg:mx-5">
+                    <img className="mx-auto w-28 mb-10" src="https://mangools.com/assets/subscription-agency-ef644e95735cb3b9f049c7d87d8959a575478808dd6d7dc4c9b9780b017ede72.svg" />
+                    <h2 className="font-extrabold text-5xl pb-5">Agency</h2>
+                    <h3 className="font-extrabold text-2xl pb-3">$77<span className="text-[11px] align-middle mx-1">/ mo</span></h3>
+                    <p className="opacity-40 text-[10px]">This plan is ideal for new writer and small companies or organizations</p>
+                    <ul className="w-full py-10 grid gap-3">
+                        <Features name={"unlimited Domains"} />
+                        <Features name={"unlimited Admins"} />
+                        <Features name={"unlimited Articles"} />
+                        <Features name={"100 Voices"} />
+                        <Features name={"10,000 words/pg"} />
+                    </ul>
+                    <Btn1 name="Get Started" classes={" bg-[#0b121f] !text-white !w-full hover:!bg-[#0d1a2d]"} />
                 </div>
             </div>
+            
         </section>
     )
 }
