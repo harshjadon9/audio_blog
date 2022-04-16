@@ -87,9 +87,8 @@ const Footer = () => {
                     </div>
                 </div>
 
-
-
-                <hr className="border-1 border-white opacity-30 rounded-lg mb-10 mt-20 lg:mx-0 mx-10 " />
+                <hr className="border-1 border-white opacity-10 rounded-lg mb-10 mt-20 lg:mx-0 mx-10 " />
+                
                 <div className="text-gray-500 ">
                     <div className="grid lg:flex my-3 px-7">
                         <p className="mb-10 lg:mb-0">© 2022 Company name</p>
