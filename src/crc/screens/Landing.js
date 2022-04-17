@@ -11,9 +11,6 @@ const Home = () => {
     return (
         <>
             <div className="App text-white">
-                <Topnav classes={"lg:mb-4"} />
-                <Navbar />
-
                 {/* landing area */}
                 <div className='relative pb-32'>
                     <div className='max-w-screen-xl px-4 py-16 mx-auto sm:py-24 lg:py-28 grid place-items-center'>
@@ -54,7 +51,6 @@ const Home = () => {
                     </ul>
                 </div>
                 <Price />
-                <Footer />
             </div>
         </>
     )
