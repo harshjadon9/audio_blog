@@ -1,12 +1,12 @@
 import react from 'react';
 
-const Screen = () => {
+const Login = () => {
     return (
         <>
-            <h1 className='mt-16'>Hello world!!</h1>
+            <h1 className='mt-16'>Login!!</h1>
             <button className="rounded-full">Save Changes</button>
         </>
     )
 }
 
-export default Screen;
+export default Login;
