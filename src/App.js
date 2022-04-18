@@ -10,13 +10,13 @@ import Error404 from './crc/screens/404';
 import Navbar from './crc/components/navbar';
 import Footer from './crc/components/footer';
 import Topnav from './crc/components/navoffer';
+import Profile from './crc/screens/Profile';
 
 
 function App() {
   return (
     <Router>
-                <Topnav classes={"lg:mb-4"} />
-                <Navbar/>
+                
       {/* <nav>
         <Link to={"/"}> HOme </Link>
         <Link to={"/login"}> HOme </Link>
@@ -25,9 +25,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/profile/:username" element={<Profile />} />
         <Route path="*" element={<Error404/>} />
       </Routes>
-      <Footer />
     </Router>
   );
 }

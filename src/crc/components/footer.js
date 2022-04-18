@@ -16,7 +16,7 @@ const Footer = () => {
                     </div>
                     <div className="grid">
                         <div className="grid lg:flex mt-5 lg:mt-0">
-                            <Input name="John@gmail.com" classes={' lg:w-80 invalid:ring-red-500'} />
+                            <Input.Email name="John@gmail.com" classes={' lg:w-80 invalid:ring-red-500'} />
                             <Btn1 name={"Notify"} classes={'bg-[#6366f1] flex-2 !w-full lg:!w-32 !text-white mt-2 lg:mt-0 place-self-center lg:mx-3 hover:bg-[#4044d7] lg:px-6'} />
                         </div>
                         <div>
