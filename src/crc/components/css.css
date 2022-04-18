@@ -1,3 +1,7 @@
 footer li{
     color:#9397a1
 }
+
+footer, .shadowss{
+    box-shadow: 0px -5px 60px 6px #8104ff21!important;
+}

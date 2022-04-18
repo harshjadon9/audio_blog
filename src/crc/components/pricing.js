@@ -1,5 +1,5 @@
 import React from "react";
-import Btn1 from "./buttons";
+import Button from "./buttons";
 
 const Tick = () => {
     return (
@@ -22,9 +22,9 @@ const Features = ({ name }) => {
 
 const Price = () => {
     return (
-        <section className=" bg-[#fdfcff] h-full text-gray-700 py-10 text-center">
+        <section className="h-full text-grey py-10 text-center pt-32 lg:mb-32 md:mb-28 mb-10">
             <h1 className="font-bold text-3xl lg:text-6xl my-10">Simple <span className="mx-1 font-extrabold underline decoration-8 decoration-[#6a21a7]">Pricing</span> Plans</h1>
-            <h3 className="font-medium text-l lg:text-xl my-20 px-20">Flexible pricing built for indie devs, large teams, and everyone in between.</h3>
+            <h3 className="font-medium text-l lg:text-xl my-5 mb-24 px-20">Flexible pricing built for indie devs, large teams, and everyone in between.</h3>
             <div className="lg:flex place-items-center justify-center mt-10">
                 <div className=" mx-auto w-80 bg-white shadow-lg rounded-lg px-10 py-10 my-10 lg:mx-5">
                     <img className="mx-auto w-28 mb-10" src="https://mangools.com/assets/subscription-basic-2149dcc5352d9e02f7c8a95cafa85be79bc0850ba5f5ef3df2b6cc6d52063e59.svg" />
@@ -38,9 +38,9 @@ const Price = () => {
                         <Features name={"10 Voices"} />
                         <Features name={"1100 words/pg"} />
                     </ul>
-                    <Btn1 name="Get Started" classes={" bg-[#0b121f] !text-white !w-full hover:!bg-[#0d1a2d]"} />
+                    <Button.light name="Get Started" classes={" bg-[#0b121f] !text-white !w-full hover:!bg-[#0d1a2d]"} />
                 </div>
-                <div className="mx-auto scale-105 text-white w-80 shadow-2xl rounded-lg px-10 py-10 my-10 lg:mx-5 bg-gradient-to-tr from-purple-800 via-violet-900 to-purple-800">
+                <div className="mx-auto scale-105 shadowss text-white w-80 shadow-2xl rounded-lg px-10 py-10 my-10 lg:mx-5 bg-gradient-to-br  from-purple to-purple-l">
                     <img className="mx-auto w-28 mb-10" src="https://mangools.com/assets/subscription-premium-8dc0c20749b74979528bc769d049b5cdc9080e99b84b7b2beef7e2cb5b6cf489.svg" />
                     <h2 className="font-extrabold text-5xl pb-5">Premium</h2>
                     <h3 className="font-extrabold text-2xl pb-3">$55<span className="text-[11px] align-middle mx-1">/ mo</span></h3>
@@ -52,7 +52,7 @@ const Price = () => {
                         <Features name={"50 Voices"} />
                         <Features name={"500 words/pg"} />
                     </ul>
-                    <Btn1 name="Get Started" classes={" bg-white !text-[#0b121f] !w-full hover:!bg-gray-200"} />
+                    <Button.light name="Get Started" classes={" bg-white !text-[#0b121f] !w-full hover:!bg-gray-200"} />
                 </div>
                 <div className="mx-auto w-80 bg-white shadow-lg rounded-lg px-10 py-10 my-10 lg:mx-5">
                     <img className="mx-auto w-28 mb-10" src="https://mangools.com/assets/subscription-agency-ef644e95735cb3b9f049c7d87d8959a575478808dd6d7dc4c9b9780b017ede72.svg" />
@@ -66,7 +66,7 @@ const Price = () => {
                         <Features name={"100 Voices"} />
                         <Features name={"10,000 words/pg"} />
                     </ul>
-                    <Btn1 name="Get Started" classes={" bg-[#0b121f] !text-white !w-full hover:!bg-[#0d1a2d]"} />
+                    <Button.light name="Get Started" classes={" bg-[#0b121f] !text-white !w-full hover:!bg-[#0d1a2d]"} />
                 </div>
             </div>
             

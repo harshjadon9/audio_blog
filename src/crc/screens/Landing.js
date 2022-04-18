@@ -20,13 +20,13 @@ const Home = () => {
             <Navbar />
 
             {/* landing area */}
-            <div className=' bg-gradient-to-tl from-[#F8EAFF] to-[#F2E6FF] relative pb-32'>
+            <div className=' pt-10 bg-gradient-to-tl from-[#ae00ff0b] to-[#7b00ff20] relative pb-32'>
                 <div className='max-w-screen-xl px-4 py-16 mx-auto sm:py-24 lg:py-28 grid place-items-center'>
                     <div className='pb-0'>
                         <div></div>
                         <h3 className='order-first text-xs lg:text-lg text-transparent font-sans font-medium tracking-wide bg-gradient-to-br from-purple to-purple-l bg-clip-text'>Say Hello to the Future!! </h3>
                         <h1 style={{ lineHeight: 'initial' }} className='font-sans h-full font-extrabold text-transparent text-5xl lg:text-7xl text-center bg-gradient-to-r  from-purple to-purple-l bg-clip-text'>Conversation Intelligence</h1>
-                        <h1 style={{ lineHeight: 'initial' }} className='font-sans h-full font-extrabold text-xlight text-2xl lg:text-7xl text-center '>for Developers</h1>
+                        <h1 style={{ lineHeight: 'initial' }} className='font-sans h-full font-extrabold  text-2xl lg:text-7xl text-center text-transparent bg-gradient-to-r from-purple to-purple-l bg-clip-text'>for Developers</h1>
                         <p className=' text-xs lg:text-lg text-[#170028] my-9 mx-auto lg:px-64 text-center '>
                             A utility-first Audio framework packed with 100+ AI voices, like <span className='text-light underline'>flex-10</span> , <span className='text-light underline'></span>pt-4, <span className='text-light underline'>text-center</span> and <span className='text-light underline'>rotate-90</span> that can be composed to build any design, directly in your markup.
                         </p>
