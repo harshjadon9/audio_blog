@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom';
 
 import Btn1 from '../components/buttons';
 
+import '../base.css';
 
 import Footer from '../components/footer';
 import Topnav from '../components/navoffer';
@@ -14,7 +15,7 @@ import Price from '../components/pricing';
 const Home = () => {
     let navigate = useNavigate();
     return (
-        <div className="App text-white">
+        <div className="App text-white bg-gradient-to-tl from-[#F8EAFF] to-[#F2E6FF] backdrop-opacity-10">
             <Topnav classes={"lg:mb-4"} />
             <Navbar />
             {/* landing area */}
@@ -22,15 +23,15 @@ const Home = () => {
                 <div className='max-w-screen-xl px-4 py-16 mx-auto sm:py-24 lg:py-28 grid place-items-center'>
                     <div className='pb-0'>
                         <div></div>
-                        <h3 className='order-first text-xs lg:text-lg text-transparent font-sans font-medium tracking-wide bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text'>Say Hello to the Future!! </h3>
-                        <h1 style={{ lineHeight: 'initial' }} className='font-sans h-full font-extrabold text-transparent text-5xl lg:text-7xl text-center bg-gradient-to-r  from-pink-500 via-red-500 to-yellow-500 bg-clip-text'>Conversation Intelligence</h1>
-                        <h1 style={{ lineHeight: 'initial' }} className='font-sans h-full font-extrabold text-white text-2xl lg:text-7xl text-center '>for Developers</h1>
-                        <p className=' text-xs lg:text-lg text-[#9fa3a8] my-9 mx-auto lg:px-64 text-center '>
-                            A utility-first Audio framework packed with 100+ AI voices, like <span className='text-white underline'>flex-10</span> , <span className='text-white underline'></span>pt-4, <span className='text-white underline'>text-center</span> and <span className='text-white underline'>rotate-90</span> that can be composed to build any design, directly in your markup.
+                        <h3 className='order-first text-xs lg:text-lg text-transparent font-sans font-medium tracking-wide bg-gradient-to-br from-purple to-purple-l bg-clip-text'>Say Hello to the Future!! </h3>
+                        <h1 style={{ lineHeight: 'initial' }} className='font-sans h-full font-extrabold text-transparent text-5xl lg:text-7xl text-center bg-gradient-to-r  from-purple to-purple-l bg-clip-text'>Conversation Intelligence</h1>
+                        <h1 style={{ lineHeight: 'initial' }} className='font-sans h-full font-extrabold text-xlight text-2xl lg:text-7xl text-center '>for Developers</h1>
+                        <p className=' text-xs lg:text-lg text-[#170028] my-9 mx-auto lg:px-64 text-center '>
+                            A utility-first Audio framework packed with 100+ AI voices, like <span className='text-light underline'>flex-10</span> , <span className='text-light underline'></span>pt-4, <span className='text-light underline'>text-center</span> and <span className='text-light underline'>rotate-90</span> that can be composed to build any design, directly in your markup.
                         </p>
                     </div>
                 </div>
-                <Btn1 name='Get Started' callback={() => {
+                <Btn1 name='Get Started for Free' classes={" bg-purple text-white"} callback={() => {
                     navigate("/login")
                 }} />
                 {/* <button onClick={()=>{

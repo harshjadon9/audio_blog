@@ -7,9 +7,9 @@ import './css.css';
 const Footer = () => {
     return (
         // dark:bg-[#090d16]
-        <footer class="bg-[#0c121f] mt-44 pt-4 pb-8 xl:pt-8 shadow-xl relative rounded-t-3xl">
+        <footer class="bg-[#FBF8FF] mt-44 pt-4 pb-8 xl:pt-8 shadow-xl relative rounded-t-3xl">
             <div className="relative w-full">
-                <div className="h-fit lg:h-36 m-auto rounded-2xl px-10 lg:flex grid place-items-center -mt-16 w-10/12 self-center bg-[#4337c9]">
+                <div className="h-fit lg:h-36 m-auto rounded-2xl px-10 lg:flex grid place-items-center -mt-16 w-10/12 self-center bg-gradient-to-br from-[#8000FF]  to-[#9F27FF]">
                     <div className="grow">
                         <h2 className="font-bold text-white text-left text-xl lg:text-2xl mt-5 lg:mt-0">Want product news and updates?</h2>
                         <h4 className="font-regular text-white opacity-50 text-sm text-left lg:text-l">Sign up for our newsletter to stay up to date.</h4>
@@ -25,7 +25,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="text-gray-300 lg:px-20  text-sm pt-20 text-center lg:text-left">
+            <div className=" text-purple lg:px-20  text-sm pt-20 text-center lg:text-left">
 
                 <div className="w-full justify-items-stretch grid lg:flex">
                     <div className="m-auto lg:m-0 w-60 lg:w-64">
@@ -37,36 +37,36 @@ const Footer = () => {
                         <div className="grow">
                             <h2 className="text-xl font-extrabold mb-5 lg:mt-0 mt-10">Resources</h2>
                             <ul className="grid gap-y-0.5 lg:gap-y-2 mt-2 lg:mt:5">
-                                <li><a href="#" className="hover:opacity-70 cursor-pointer">Help Center</a></li>
-                                <li><a href="#" className="hover:opacity-70 cursor-pointer">Developers API</a></li>
-                                <li><a href="#" className="hover:opacity-70 cursor-pointer">Our Blog</a></li>
-                                <li><a href="#" className="hover:opacity-70 cursor-pointer">Status</a></li>
-                                <li><a href="#" className="hover:opacity-70 cursor-pointer">Sitemap</a></li>
+                                <li><a href="#" className="hover:text-xlight cursor-pointer">Help Center</a></li>
+                                <li><a href="#" className="hover:text-xlight cursor-pointer">Developers API</a></li>
+                                <li><a href="#" className="hover:text-xlight cursor-pointer">Our Blog</a></li>
+                                <li><a href="#" className="hover:text-xlight cursor-pointer">Status</a></li>
+                                <li><a href="#" className="hover:text-xlight cursor-pointer">Sitemap</a></li>
                             </ul>
                         </div>
                         <div className="grow">
                             <h2 className="text-xl font-extrabold mb-5 lg:mt-0 mt-10">Products</h2>
                             <ul className="grid gap-y-0.5 lg:gap-y-2 mt-2 lg:mt:5">
-                                <li><a href="#" className="hover:opacity-70 cursor-pointer">Features</a></li>
-                                <li><a href="#" className="hover:opacity-70 cursor-pointer">Integration</a></li>
-                                <li><a href="#" className="hover:opacity-70 cursor-pointer">Documentation</a></li>
-                                <li><a href="#" className="hover:opacity-70 cursor-pointer">Pricing</a></li>
+                                <li><a href="#" className="hover:text-xlight cursor-pointer">Features</a></li>
+                                <li><a href="#" className="hover:text-xlight cursor-pointer">Integration</a></li>
+                                <li><a href="#" className="hover:text-xlight cursor-pointer">Documentation</a></li>
+                                <li><a href="#" className="hover:text-xlight cursor-pointer">Pricing</a></li>
                             </ul>
                         </div>
                         <div className="grow">
                             <h2 className="text-xl font-extrabold mb-5 lg:mt-0 mt-10">About</h2>
                             <ul className="grid gap-y-0.5 lg:gap-y-2 mt-2 lg:mt:5">
-                                <li><a href="#" className="hover:opacity-70 cursor-pointer">Our Story</a></li>
-                                <li><a href="#" className="hover:opacity-70 cursor-pointer">Company</a></li>
-                                <li><a href="#" className="hover:opacity-70 cursor-pointer">Our Team</a></li>
-                                <li><a href="#" className="hover:opacity-70 cursor-pointer">Work with us</a></li>
+                                <li><a href="#" className="hover:text-xlight cursor-pointer">Our Story</a></li>
+                                <li><a href="#" className="hover:text-xlight cursor-pointer">Company</a></li>
+                                <li><a href="#" className="hover:text-xlight cursor-pointer">Our Team</a></li>
+                                <li><a href="#" className="hover:text-xlight cursor-pointer">Work with us</a></li>
                             </ul>
                         </div>
                         <div className="grow">
                             <h2 className="text-xl font-extrabold mb-5 lg:mt-0 mt-10">Contact</h2>
                             <ul className="grid gap-y-0.5 lg:gap-y-2 mt-2 lg:mt:5">
                                 <li className="m-auto lg:m-0">
-                                    <a href="#" className="hover:opacity-70 cursor-pointer flex">
+                                    <a href="#" className="hover:text-xlight cursor-pointer flex">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 my-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                             <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                                             <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -75,7 +75,7 @@ const Footer = () => {
                                     </a>
                                 </li>
                                 <li className="my-3 m-auto lg:m-0">
-                                    <a href="#" className="hover:opacity-70 cursor-pointer flex">
+                                    <a href="#" className="hover:text-xlight cursor-pointer flex">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                             <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                                         </svg>
@@ -87,7 +87,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <hr className="border-1 border-white opacity-10 rounded-lg mb-10 mt-20 lg:mx-0 mx-10 " />
+                <hr className="border-1 border-purple opacity-10 rounded-lg mb-10 mt-20 lg:mx-0 mx-10 " />
                 
                 <div className="text-gray-500 ">
                     <div className="grid lg:flex my-3 px-7">
