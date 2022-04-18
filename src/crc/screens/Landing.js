@@ -3,7 +3,7 @@ import react from 'react';
 import { useNavigate } from 'react-router-dom';
 
 
-import Btn1 from '../components/buttons';
+import Button from '../components/buttons';
 
 import '../base.css';
 
@@ -15,11 +15,12 @@ import Price from '../components/pricing';
 const Home = () => {
     let navigate = useNavigate();
     return (
-        <div className="App text-white bg-gradient-to-tl from-[#F8EAFF] to-[#F2E6FF] backdrop-opacity-10">
-            <Topnav classes={"lg:mb-4"} />
+        <div className="App text-white backdrop-opacity-10">
+            <Topnav classes={""} />
             <Navbar />
+
             {/* landing area */}
-            <div className='relative pb-32'>
+            <div className=' bg-gradient-to-tl from-[#F8EAFF] to-[#F2E6FF] relative pb-32'>
                 <div className='max-w-screen-xl px-4 py-16 mx-auto sm:py-24 lg:py-28 grid place-items-center'>
                     <div className='pb-0'>
                         <div></div>
@@ -31,16 +32,12 @@ const Home = () => {
                         </p>
                     </div>
                 </div>
-                <Btn1 name='Get Started for Free' classes={" bg-purple text-white"} callback={() => {
+                <Button.dark name='Get Started for Free' classes={" bg-purple text-white"} callback={() => {
                     navigate("/login")
                 }} />
-                {/* <button onClick={()=>{
-                        navigate("/about")
-                    }}>asd</button> */}
             </div>
 
             {/* Trusted by section */}
-
             <div className='bg-[#0c121f] w-full py-20 px-10'>
                 <h1 className="font-bold lg:text-2xl text-lg text-gray-500">Trusted and used by over 250+ sites</h1>
                 <ul className='grid place-items-center lg:grid-cols-4 md:grid-cols-3 gap-8 mt-20'>

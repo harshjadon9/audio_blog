@@ -1,10 +1,20 @@
 import react from 'react'
 
-const Btn1 = ({ name, classes, callback }) => {
+const light = ({ name, classes, callback }) => {
     return (
         <button
             onClick={callback}
-                    className={'w-max text-sm font-semibold bg-white text-gray-900 py-3 px-4 rounded-lg hover:bg-gray-300 cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900 shadow-sm transition duration-150 ease-in-out hover:shadow-sm '+classes}>
+                    className={'w-max text-sm font-semibold py-3 px-4 rounded-lg cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900 shadow-sm transition duration-150 ease-in-out hover:shadow-sm bg-white text-purple hover:bg-gray-200 '+classes}>
+            {name}
+
+        </button>
+    )
+}
+const dark = ({ name, classes, callback }) => {
+    return (
+        <button
+            onClick={callback}
+                    className={'w-max text-sm font-semibold py-3 px-4 rounded-lg cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-gray-900 shadow-sm transition duration-150 ease-in-out hover:shadow-sm bg-purple text-white hover:bg-dark'+classes}>
             {name}
 
         </button>
@@ -13,4 +23,5 @@ const Btn1 = ({ name, classes, callback }) => {
 
 
 
-export default Btn1
+
+export default {light, dark}

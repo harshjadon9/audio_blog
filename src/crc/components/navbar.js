@@ -1,21 +1,21 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import Btn1 from "./buttons";
+import Buttons from "./buttons";
 
 const Navbar = ({classes}) => {
     let navigate = useNavigate();
     return (
-        <nav className={"transition-colors duration-500 lg:z-50 sticky border-slate-300 border-1 top-0 z-50 flex backdrop-blur-md text-left text-white px-4 lg:px-10 py-4 font-medium text-sm place-items-center "+classes}>
+        <nav className={"absolute w-full mt-12 transition-colors duration-500 lg:z-50 border-slate-300 border-1 top-0 z-50 flex backdrop-blur-md text-left text-dark px-4 lg:px-10 py-4 font-medium text-sm place-items-center "+classes}>
             <h1 className="text-base lg:text-lg font-bold text-left">Company name</h1>
             <span className="grow"></span>
-            <ul className=" text-slate-100 flex place-items-center space-x-8">
+            <ul className="  flex place-items-center space-x-8">
                 <li><a className="hidden md:lg:block">Docs</a></li>
                 <li><a className="hidden md:lg:block">Examples</a></li>
                 <li><a className="hidden md:lg:block" onClick={()=>{navigate('/pricing')}}>Pricing</a></li>
                 <div className="hidden md:lg:block !mx-7 border-white border-r-[1px] opacity-20 h-[20px] w-1"></div>
                 <li className="!m-0">
-                    <Btn1 name={"Get Started"}
-                        classes={" h-10 py-0 bg-purple text-white"}
+                    <Buttons.dark name={"Get Started"}
+                        classes={" h-10 py-0"}
                         callback={() => {
                             navigate("/login")
                         }} />
