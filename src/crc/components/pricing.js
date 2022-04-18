@@ -22,7 +22,7 @@ const Features = ({ name }) => {
 
 const Price = () => {
     return (
-        <section className=" bg-slate-50 h-full text-gray-700 py-10">
+        <section className=" bg-slate-50 h-full text-gray-700 py-10 text-center">
             <h1 className="font-bold text-3xl lg:text-4xl my-10">Simple <span className="mx-1 font-extrabold underline decoration-8 decoration-[#6a21a7]">Pricing</span> Plans</h1>
             <div className="lg:flex place-items-center justify-center mt-10">
                 <div className=" mx-auto w-80 bg-white shadow-lg rounded-lg px-10 py-10 my-10 lg:mx-5">

@@ -61,7 +61,7 @@ const Home = () => {
           </li> */}
                 </ul>
             </div>
-            <Price />
+            {/* <Price /> */}
             <Footer />
 
         </div>
