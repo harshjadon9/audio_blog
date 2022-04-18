@@ -17,7 +17,7 @@ const Navbar = ({classes}) => {
                     <Buttons.dark name={"Get Started"}
                         classes={" h-10 py-0"}
                         callback={() => {
-                            navigate("/login")
+                            navigate("/pricing")
                         }} />
                 </li>
             </ul>

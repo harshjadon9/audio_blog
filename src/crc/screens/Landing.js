@@ -33,7 +33,7 @@ const Home = () => {
                     </div>
                 </div>
                 <Button.dark name='Get Started for Free' classes={" bg-purple text-white"} callback={() => {
-                    navigate("/login")
+                    navigate("/pricing")
                 }} />
             </div>
 

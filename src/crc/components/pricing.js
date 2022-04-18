@@ -25,7 +25,7 @@ const Price = () => {
         <section className="h-full text-grey py-10 text-center pt-32 lg:mb-28 md:mb-24 mb-10">
             <h1 className="font-bold text-3xl lg:text-6xl my-10">Simple <span className="mx-1 font-extrabold underline decoration-8 decoration-[#6a21a7]">Pricing</span> Plans</h1>
             <h3 className="font-medium text-l lg:text-xl my-5 mb-24 px-20">Flexible pricing built for indie devs, large teams, and everyone in between.</h3>
-            <div className="lg:flex place-items-center justify-center mt-10">
+            <div className="lg:flex place-items-center justify-center mt-10">    
                 <div className=" mx-auto w-80 bg-white shadow-lg rounded-lg px-10 py-10 my-10 lg:mx-5">
                     <img className="mx-auto w-28 mb-10" src="https://mangools.com/assets/subscription-basic-2149dcc5352d9e02f7c8a95cafa85be79bc0850ba5f5ef3df2b6cc6d52063e59.svg" />
                     <h2 className="font-extrabold text-5xl pb-5">Starter</h2>
@@ -40,7 +40,7 @@ const Price = () => {
                     </ul>
                     <Button.light name="Get Started" classes={" bg-[#0b121f] !text-white !w-full hover:!bg-[#0d1a2d]"} />
                 </div>
-                <div className="mx-auto scale-110 -translate-y-2 shadowss text-white w-80 shadow-2xl rounded-lg px-10 py-10 my-10 lg:mx-5 bg-gradient-to-br  from-purple to-purple-l">
+                <div className="mx-auto lg:scale-110 -translate-y-2 shadowss text-white w-80 shadow-2xl rounded-lg px-10 py-10 my-10 lg:mx-5 bg-gradient-to-br  from-purple to-purple-l">
                     <img className="mx-auto w-28 mb-10" src="https://mangools.com/assets/subscription-premium-8dc0c20749b74979528bc769d049b5cdc9080e99b84b7b2beef7e2cb5b6cf489.svg" />
                     <h2 className="font-extrabold text-5xl pb-5">Premium</h2>
                     <h3 className="font-extrabold text-2xl pb-3">$55<span className="text-[11px] align-middle mx-1">/ mo</span></h3>
