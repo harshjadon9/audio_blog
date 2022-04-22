@@ -1,8 +1,10 @@
 import react from 'react';
-import Btn1 from '../components/buttons';
+import Buttons from '../components/buttons';
+// import Btti from '../components/buttons';
 import Input from '../components/Input';
 
 // magic.link
+
 const Login = () => {
     return (
         <div className="bg-white absolute h-full w-full text-[#4d5d6e] flex">
@@ -36,7 +38,7 @@ const Login = () => {
                         </div>
                         <a href='/reset' className=' font-medium text-blue hover:text-black'>forgot password?</a>
                     </div>
-                    <Btn1 name="Login" classes=" bg-[#0b121f] !text-white !w-full hover:!bg-[#0d1a2d] my-10" />
+                    <Buttons.dark name="Login" classes=" bg-[#0b121f] !text-white !w-full hover:!bg-[#0d1a2d] my-10" />
                     <p className='opacity-30 text-xs text-center'>© 2022 All Rights Reserved</p>
                 </div>
             </div>

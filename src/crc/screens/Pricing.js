@@ -10,7 +10,7 @@ function Pricing(props) {
     return (
         <div>
             <Topnav />
-            <Navbar classes={"absolute"}/>
+            <Navbar classes={"absolute lg:my-12"}/>
             <Price />
             <Faq />
             <Footer/>

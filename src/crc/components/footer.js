@@ -10,9 +10,10 @@ const Footer = () => {
         <footer class="bg-[#FBF8FF] mt-44 pt-4 pb-8 xl:pt-8 shadow-xl relative rounded-t-3xl z-10">
             <div className="relative w-full">
                 <div className="h-fit lg:h-36 m-auto rounded-2xl px-10 lg:flex grid place-items-center -mt-32 lg:-mt-24 w-10/12 self-center bg-gradient-to-br from-[#8000FF]  to-[#9F27FF]">
+                {/* <div className="h-fit lg:h-36 m-auto rounded-2xl px-10 lg:flex grid place-items-center -mt-32 lg:-mt-24 w-10/12 self-center bg-gradient-to-br from-[#8000FF]  to-[#9F27FF]"> */}
                     <div className="grow">
                         <h2 className="font-bold text-white text-left text-xl lg:text-2xl mt-5 lg:mt-0">Want product news and updates?</h2>
-                        <h4 className="font-regular text-white opacity-50 text-sm text-left lg:text-l">Sign up for our newsletter to stay up to date.</h4>
+                        <h4 className="font-regular text-white opacity-80 text-sm text-left lg:text-l">Sign up for our newsletter to stay up to date.</h4>
                     </div>
                     <div className="grid">
                         <div className="grid lg:flex mt-5 lg:mt-0">
@@ -20,7 +21,7 @@ const Footer = () => {
                             <Button.light name={"Notify"} classes={' flex-2 !w-full lg:!w-32 mt-2 lg:mt-0 place-self-center lg:mx-3 lg:px-6'} />
                         </div>
                         <div>
-                            <h4 className="font-regular mt-2 text-[#a29be5] text-left text-[12px] mb-5 lg:mb-0">We care about the protection of your data. Read our <span className="underline-offset-1 !text-white underline cursor-pointer"> Privacy Policy.</span></h4>
+                            <h4 className="font-regular mt-2 text-white text-left text-[12px] mb-5 lg:mb-0">We care about the protection of your data. Read our <span className="underline-offset-1 !text-white underline cursor-pointer"> Privacy Policy.</span></h4>
                         </div>
                     </div>
                 </div>
